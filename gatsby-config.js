@@ -1,33 +1,29 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `Rachit Sharma's Blog`,
+    name: `RachitSharma.me`,
+    siteUrl: `https://blog.rachitsharma.me`,
+    description: `A computer science engineer who likes photography ~ the usual`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `A computer science engineer who likes photography ~ the usual.`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/rachit995`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/rachit995`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://instagram.com/rachit995`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        url: `https://www.linkedin.com/in/rachit995`,
       },
     ],
   },
@@ -48,8 +44,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `RachitSharma.me`,
+        short_name: `RachitSharma.me`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
