@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Rachit Sharma's Blog`,
-    name: `RachitSharma.me`,
+    name: `Rachit Sharma`,
     siteUrl: `https://blog.rachitsharma.me`,
     description: `A computer science engineer who likes photography ~ the usual`,
     hero: {
@@ -44,8 +44,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `RachitSharma.me`,
-        short_name: `RachitSharma.me`,
+        name: `Rachit Sharma`,
+        short_name: `Rachit Sharma`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
@@ -56,6 +56,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
+      },
+    },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `blograchitsharma`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-176044733-1",
       },
     },
   ],
